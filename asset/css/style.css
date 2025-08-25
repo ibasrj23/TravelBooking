@@ -1,0 +1,44 @@
+@font-face {
+  font-family: 'Inter';
+  src: url('asset/fonts/Inter-Regular.ttf') format('truetype');
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.custom-navbar {
+  background-color: #ffffff;
+  padding: 10px 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.logo {
+  height: 40px;
+  width: auto;
+}
+
+.navbar-nav .nav-link {
+  font-weight: 500;
+  color: #000000;
+  margin: 0 10px;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #FF6600; 
+}
+
+.btn-login {
+  background-color: #FF6600;
+  color: #fff;
+  padding: 8px 18px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn-login:hover {
+  background-color: #e65c00;
+}
