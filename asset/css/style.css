@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Inter';
-  src: url('asset/font/Inter-Regular.ttf') format('truetype');
+  src: url('asset/fonts/Inter-Regular.ttf') format('truetype');
 }
 
 body {
@@ -9,7 +9,7 @@ body {
 
 .custom-navbar {
   background-color: #ffffff;
-  padding: 10px 20px;
+  padding: 4px 20px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
