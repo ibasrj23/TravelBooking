@@ -56,13 +56,13 @@ body {
 }
 
 .testimoni h2 {
-  font-size: 2.5rem;
-  margin-bottom: 2rem;
+  font-size: 30px;
+  margin-bottom: 12px;
 }
 .testimonial-card {
   background: white;
   border-radius: 10px;
-  padding: 2rem;
+  padding: 15px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
   max-width: 600px;
   margin: 0 auto;
@@ -70,8 +70,8 @@ body {
 }
 
 .avatar {
-  width: 80px;
-  height: 80px;
+  width: 60px;
+  height: 60px;
   border-radius: 50%;
   overflow: hidden;
   margin: 0 auto 1rem;
@@ -87,25 +87,25 @@ body {
 .content h4 {
   margin-bottom: 0.5rem;
   color: #333;
-  font-size: 1.1rem;
+  font-size: 12px;
 }
 
 .stars {
   color: #e74c3c;
-  font-size: 1.2rem;
+  font-size: 12px;
   margin-bottom: 1rem;
 }
 
 .content p {
   color: #666;
   line-height: 1.6;
-  font-size: 1rem;
+  font-size: 12px;
 }
 
 .dual-color {
   display: inline-block;
   font-weight: bold;
-  font-size: 2.5rem;
+  font-size: 12px;
   line-height: 1.2;
 }
 
