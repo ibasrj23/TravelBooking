@@ -102,20 +102,6 @@ body {
   font-size: 12px;
 }
 
-.dual-color {
-  display: inline-block;
-  font-weight: bold;
-  font-size: 12px;
-  line-height: 1.2;
-}
-
-.dual-color span:first-child {
-  color: #000;
-}
-
-.dual-color span:last-child {
-  color: #e74c3c;
-}
 
 .destinasi {
   text-align: center;
@@ -151,7 +137,7 @@ body {
 }
 
 .hero-caption h1 {
-  font-size: 2.5rem;
+  font-size: 2.1rem;
   font-weight: 700;
 }
 
@@ -174,4 +160,8 @@ body {
 .btn-explore:hover {
   background-color: #e03e00;
   color: #fff;
+}
+
+.highlight {
+  color: #ff4500;
 }
