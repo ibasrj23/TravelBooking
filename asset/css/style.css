@@ -116,3 +116,17 @@ body {
 .dual-color span:last-child {
   color: #e74c3c;
 }
+
+.destinasi {
+  text-align: center;
+  padding: 4rem 5%;
+}
+
+.destinasi h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.destinasi h2 span {
+  color: #e74c3c;
+}
