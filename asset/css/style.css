@@ -102,15 +102,22 @@ body {
   font-size: 12px;
 }
 
-
 .destinasi {
   text-align: center;
   padding: 4rem 5%;
+  margin: 30px 0;
 }
 
 .destinasi h2 {
   font-size: 30px;
-  margin-bottom: 1rem;
+  margin-bottom: 3px; 
+  font-weight: 700;
+}
+
+.destinasi p {
+  margin-top: 0; 
+  margin-bottom: 0; 
+  font-size: 16px;
 }
 
 .destinasi h2 span {
