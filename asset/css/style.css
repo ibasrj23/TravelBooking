@@ -187,3 +187,90 @@ body {
 .highlight {
   color: #ff4500;
 }
+
+.fitur {
+  padding: 60px 5%;
+  display: flex;
+  justify-content: center;
+}
+
+.fitur-container {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.fitur-card {
+  background: rgb(255, 73, 0);
+  color: #fff;
+  padding: 40px 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  width: 320px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.fitur-card:hover {
+  transform: translateY(-5px);
+}
+
+.fitur-card h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.fitur-card p {
+  font-size: 15px;
+  margin: 5px 0;
+}
+
+.steps {
+  padding: 20px 5%;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;  
+}
+
+.steps-container {
+  display: flex;
+  gap: 20px; 
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.steps-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  width: 300px;
+  text-align: center;
+  padding: 25px 20px;
+  transition: transform 0.3s ease;
+}
+
+.steps-card:hover {
+  transform: translateY(-5px);
+}
+
+.steps-icon img {
+  width: 45px;
+  margin-bottom: 10px;
+}
+
+.steps-card h3 {
+  color: rgb(255, 73, 0);
+  font-size: 17px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.steps-card p {
+  color: #333;
+  font-size: 14px;
+  line-height: 1.4;
+  margin: 0;
+}
+
