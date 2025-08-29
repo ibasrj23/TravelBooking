@@ -331,9 +331,56 @@ body {
   margin-bottom: 10px;
 }
 
-.section-subtitle {
-  font-size: 16px;
-  color: #333;
+.problem {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 50px;
+  padding: 60px 5%;
+  flex-wrap: wrap;
+}
+
+.problem-content {
+  flex: 1;
+  min-width: 300px;
+}
+
+.problem-list {
+  list-style: none;
+  padding: 0;
+  margin: 30px 0 0 0;
+}
+
+.problem-list li {
+  font-size: 18px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  color: #111;
+}
+
+.problem-list .number {
+  font-size: 28px;
+  font-weight: 700;
+  color: rgb(255, 73, 0);
+  -webkit-text-stroke: 1.5px rgb(255, 73, 0);
+  color: transparent; /* biar outline aja */
+  display: inline-block;
+  width: 30px;
   text-align: center;
-  margin-bottom: 40px;
+}
+
+.problem-images {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  min-width: 280px;
+}
+
+.problem-images img {
+  width: 100%;
+  border-radius: 6px;
+  object-fit: cover;
 }
