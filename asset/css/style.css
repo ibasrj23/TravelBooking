@@ -1,10 +1,10 @@
 @font-face {
-  font-family: 'Inter';
-  src: url('asset/fonts/Inter-Regular.ttf') format('truetype');
+  font-family: 'Poppins';
+  src: url('asset/fonts/Poppins-Regular.ttf') format('truetype');
 }
 
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 .custom-navbar {
