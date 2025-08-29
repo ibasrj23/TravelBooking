@@ -376,6 +376,7 @@ body {
   position: relative;
   min-width: 280px;
   height: 400px;
+  margin-top: 60px;
 }
 
 .problem-images img {
@@ -388,13 +389,13 @@ body {
 
 .problem-images img:nth-child(1) {
   top: 0;
-  left: 0;
+  left: 40px;
   z-index: 2;
 }
 
 .problem-images img:nth-child(2) {
-  top: 160px;
-  left: 100px;
+  top: 120px;   
+  left: 140px; 
   z-index: 1;
 }
 
