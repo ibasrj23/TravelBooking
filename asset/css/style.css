@@ -650,3 +650,58 @@ body {
   font-size: 14px;
   color: #444;
 }
+
+.cara-kerja {
+  padding: 60px 8%;
+  text-align: center;
+}
+
+.cara-kerja h2 {
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.cara-kerja h2 span {
+  color: #000;
+}
+
+.cara-kerja h2 .highlight {
+  color: #ff4500;
+}
+
+.cara-kerja p {
+  color: #444;
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+
+.steps {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+
+.step {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  text-align: left;
+}
+
+.step img {
+  width: 70px;
+  height: auto;
+  flex-shrink: 0;
+}
+
+.step-text h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.step-text p {
+  font-size: 14px;
+  color: #555;
+}
